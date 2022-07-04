@@ -195,15 +195,16 @@ a:hover:before {
 
 @media (max-width: 800px) {
 
-    body{
-        background: linear-gradient(to bottom, rgb(12, 13, 14), #0e0e0e81), url(../images/STORIES.jpg);  
+    body {
+        background: linear-gradient(to bottom, rgb(12, 13, 14), #0e0e0e81), url(../images/STORIES.jpg);
         background-position: center center;
         background-size: cover;
         background-repeat: no-repeat;
         overflow: hidden;
         background-attachment: fixed;
-        heigth:100vh;
-}
+        heigth: 100vh;
+    }
+
     nav {
         font-size: small;
         flex-direction: row;
@@ -235,7 +236,8 @@ main {
         margin-bottom: -100px;
         padding-bottom: 250px;
     }
-    .btns{
+
+    .btns {
         margin-bottom: 80px;
     }
 }
